@@ -9,7 +9,7 @@ Utilities to help with retrieving tiles
 ### Examples
 Fetch all vector tiles at zoom level 16 from (34859, 22736), (34860, 22737) and store them under the subdirectory `output`:
 ```
-python tilefetcher.py -xs 34859 -xe 34860 -ys 22736 -ye 22737 -z 16 -f "vector.pbf" -t ${MAPBOX_ACCESS_TOKEN} -ep https://api.mapbox.com/v4/mapbox.mapbox-streets-v6 -o newtiles/
+python tilefetcher.py -xs 34859 -xe 34860 -ys 22736 -ye 22737 -z 16 -f "vector.pbf" -t ${MAPBOX_ACCESS_TOKEN} -ep https://api.mapbox.com/v4/mapbox.mapbox-streets-v6 -o output/
 ```
 
 Fetch all satellite tiles at zoom level 15 that overlap a geographic region defined by a 
