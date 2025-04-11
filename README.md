@@ -3,8 +3,8 @@ Utilities to help with retrieving tiles
 
 ### Dependencies 
 * [python 3](https://www.python.org/)
-* [vt2geojson](https://github.com/mapbox/vt2geojson)
-* [geojson2ndjson](https://github.com/stevage/geojson2ndjson)
+* [vt2geojson](https://github.com/mapbox/vt2geojson) npm install -g @mapbox/vt2geojson
+* [geojson2ndjson](https://github.com/stevage/geojson2ndjson) npm install -g geojson2ndjson
 
 ### Examples
 Fetch all vector tiles at zoom level 16 from (34859, 22736), (34860, 22737) and store them under the subdirectory `output`:
